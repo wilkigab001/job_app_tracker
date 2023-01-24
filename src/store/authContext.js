@@ -40,9 +40,9 @@ const getLocalData = () => {
 export const AuthContextProvider = (props) => {
     const localData = getLocalData()
 
-    let initialTime
+    let initialToken
     let initialId
-    if(localDate){
+    if(localData){
         initialToken = localData.token
         initialId = localData.userId
     }
