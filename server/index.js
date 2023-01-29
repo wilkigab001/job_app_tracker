@@ -3,8 +3,8 @@ const express = require("express");
 const cors = require("cors");
 
 const { SERVER_PORT } = process.env;
-const { User } = require("./models/User");
-const { Application } = require("./models/Application");
+const { User } = require("./models/user");
+const { Application } = require("./models/application");
 
 const {isAuthenticated} = require("./middleware/isAuthenticated");
 const {login, register} = require("./controllers/auth")

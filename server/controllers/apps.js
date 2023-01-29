@@ -78,14 +78,14 @@ module.exports = {
         userId,
       } = req.body;
       await Application.create({
-        appId,
-        jobTitle,
-        year,
-        month,
-        hiringManager,
-        jobLink,
-        company,
-        rejected,
+        appId: appId,
+        jobTitle: jobTitle,
+        year: year,
+        month: month,
+        hiringManager: hiringManager,
+        jobLink: jobLink,
+        company: company,
+        rejected: rejected,
         userId
       })
       res.sendStatus(200)

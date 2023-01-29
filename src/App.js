@@ -5,7 +5,7 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Login from './Components/Login/Login';
 import Profile from './Components/Profile/Profile';
-import ApplicationForm from './Components/applicationForm/ApplicationForm';
+import ApplicationForm from './Components/ApplicationForm/ApplicationForm';
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
